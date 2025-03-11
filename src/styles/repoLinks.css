@@ -1,0 +1,18 @@
+.repo-links {
+    padding-left: 6px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.ownerLink {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.repoUrlLink {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}

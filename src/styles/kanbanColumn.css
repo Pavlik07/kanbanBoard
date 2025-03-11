@@ -1,0 +1,16 @@
+.card.columns {
+    border-color: black;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(43, 41, 41);
+}
+
+.cardBody {
+    background-color: rgb(43, 41, 41);
+}

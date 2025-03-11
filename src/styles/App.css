@@ -1,0 +1,17 @@
+.appContainer {
+  background-color: rgb(43, 41, 41);
+  padding: 1px;
+  min-height: 100vh;
+  height: auto;
+}
+
+.mt-4 {
+  background-color: rgb(43, 41, 41);
+}
+
+div .list-group-item {
+  background-color: rgb(61, 42, 42);
+  border: 1px solid rgb(61, 42, 42);
+  border-radius: 5px;
+  margin: 3px;
+}
