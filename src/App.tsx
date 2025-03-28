@@ -5,11 +5,14 @@ import { RootState } from './redux/store';
 import './/styles/App.css';
 import Search from './components/Search';
 import KanbanBoard from './components/KanbanBoard';
+import { useRepoPersistence } from './redux/useRepoPersistence';
 
 const App: React.FC = () => {
   const repoState = useSelector((state: RootState) => state.repo);
   const repoUrl = useSelector((state: RootState) => state.repoUrl.repoUrl);
-
+  
+  useRepoPersistence();
+  
   return (
     <div className='appContainer'>
       <Container className="mt-4">
@@ -21,8 +24,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
-
-
-
-

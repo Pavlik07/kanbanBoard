@@ -1,8 +1,9 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import type { RepoState, RepoIssues } from "../utils/types";
 import { fetchIssues } from "../fetchingIssues";
+import { loadRepoState } from "./useRepoPersistence";
 
-const initialState: RepoState = {};
+const initialState: RepoState = loadRepoState();
 
 const repoSlice = createSlice({
   name: "repo",
